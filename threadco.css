@@ -407,6 +407,63 @@ article:hover{
 }
 
 
+ #best-seller{
+    padding: 60px 50px ;
+ }
+
+ #best-seller h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+ }
+
+  #best-seller table{
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    /* border-radius dene par thcol ka thcol ka color bahar ja raha hai so */
+    overflow: hidden;
+    /* table me line dikh raha tha */
+    border-collapse: collapse;
+ }
+
+ .thcol{
+    background: var(--gradient-accent);
+    padding:14px 20px ;
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+
+ }
+ th{
+    padding: 14px 20px;
+    text-align: left;
+    background-color: #161922;
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+    font-size: 0.8rem;
+ }
+ td{
+    padding: 14px 20px;
+    background-color: #161922;
+    font-family: var(--font-body);
+    color: var(--color-text-body);
+    font-size: 0.7rem;
+ }
+ tr:hover td{
+    background-color:rgb(39, 28, 50) ;
+ }
+ tr:hover td:first-child{
+    color: var(--color-secondary);
+ }
+
+ #why{
+    padding:60px 50px;
+ }
 
 
 
