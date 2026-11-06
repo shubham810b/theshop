@@ -463,7 +463,71 @@ article:hover{
 
  #why{
     padding:60px 50px;
+    color: white;
+ }
+ #why h2{
+    text-transform: uppercase;
+    margin-bottom: 6px;
+ }
+ #why p{
+    font-family: var(--font-body);
+    margin-bottom: 5px;
+ }
+ #why ul{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 15px;
+    margin: 50px 0;
+ }
+ #why ul li{
+    flex: 1 1 240px;
+    background-color: var(--color-surface);
+    padding: 24px 11px;
+    border-radius: 12px;
+    border: 1px solid var(--color-border);
+    border-left: 4px solid var(--color-primary);
+    font-family: var(--font-body);
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+ }
+ #why ul li:hover{
+    border-left: 6px solid var(--color-secondary);
+ }
+ #why ul li strong{
+    /* line ko neeche lane ke liye */
+    display: block;
+     font-family: var(--font-display);
+    margin-bottom: 10px;
+    font-size: 1rem;
+
  }
 
+
+ #why div{
+    margin: 10px;
+    border: 1px solid var(--color-border);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 15px;
+ }
+ #why div section{
+    flex: 1  1 270px;
+    font-family: var(--font-display);
+     border:1px solid var(--color-border);
+     border-radius: 12px;
+ }
+  #why div section h5 {
+    color: var(--color-accent);
+   
+  }
+
+#why div section p{
+     font-family: var(--font-body);
+    color: var(--color-text-muted);
+    font-size: 0.8rem;
+}
 
 
